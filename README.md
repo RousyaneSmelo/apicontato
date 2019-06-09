@@ -21,6 +21,9 @@ Para executar uma proxima vez:
 OBS: nesta proxima execução a API não precisa mais criar as tabelas no banco de dados, mais se caso tenha modificado algum atributo 
 das entidades as mesmas serão replicadas no banco de dados.
 
+Para executar o projeto pelo CMD com Maven, entre no projeto abra o CMD e execute o seguinte comando:
+mvn spring-boot:run
+
 Como utilizar a API:
 
 1 - GET - http://localhost:8080/contato
